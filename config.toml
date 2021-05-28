@@ -6,6 +6,7 @@ title = "Resume"
 theme = "hugo-devresume-theme"
 googleAnalytics = "UA-39926379-1"
 
+
 [params]
 
     author = "Adriano Celentano"
