@@ -1,0 +1,191 @@
+# Page settings
+
+baseURL = ""
+languageCode = "en"
+title = "Resume"
+theme = "hugo-devresume-theme"
+googleAnalytics = "UA-39926379-1"
+
+[params]
+
+    author = "Adriano Celentano"
+    description = "DevOps Engineer with a passion for development"
+
+    primaryColor = "#9c2b0e"
+    textPrimaryColor = "#2c2626"
+
+    [params.profile]
+        enable = true
+        name = "Adriano Celentano"
+        tagline = "DevOps Engineer with a passion for development"
+        avatar = "me.jpeg"
+
+    [params.contact]
+        enable = true
+        location = "Chesham, Buckinghamshire"
+
+        [[params.contact.list]]
+        icon = "fas fa-phone-square"
+        url = "tel:07716 532750"
+        text = "07716 532750"
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:adriano8899@gmail.com"
+        text = "adriano8899@gmail.com"
+
+    [params.summary]
+        enable = true
+        text = "A passionate engineer specialising in Linux based systems, with a decade of experience designing and operating applications for businesses large and small, creating robust, scalable systems that are easy to use and maintain."
+
+
+    [params.certification]
+        enable = true
+
+        [[params.certification.list]]
+        course = "RedHat Certified Administrator"
+        level = ""
+        issued = "March 2012"
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "Cloud"
+        [[params.skills.list.items]]
+        details = "Amazon Web Services"
+
+        [[params.skills.list]]
+        title = "Programming"
+        [[params.skills.list.items]]
+        details = "Python"
+
+        [[params.skills.list]]
+        title = "Automation"
+        [[params.skills.list.items]]
+        details = "Ansible"
+        [[params.skills.list.items]]
+        details = "Terraform"
+
+        [[params.skills.list]]
+        title = "Containerisation"
+        [[params.skills.list.items]]
+        details = "Kubernetes"
+        [[params.skills.list.items]]
+        details = "Docker"
+
+        [[params.skills.list]]
+        title = "Operating Systems"
+        [[params.skills.list.items]]
+        details = "Linux"
+
+    [params.interests]
+        enable = true
+
+        [[params.interests.list]]
+        name = "Computer Gaming"
+        [[params.interests.list]]
+        name = "Linux"
+        [[params.interests.list]]
+        name = "Game Development"
+        [[params.interests.list]]
+        name = "Home Automation"
+        [[params.interests.list]]
+        name = "Blockchain applications"
+
+    [params.education]
+        enable = true
+        [[params.education.list]]
+        degree = "Bachelor's Computer Science"
+        university = "Kingston University"
+        dates = "2008 - 2011"
+
+        [[params.education.list]]
+        degree = "BTEC Software Development (level 2 & 3)"
+        university = "West Thames College"
+        dates = "2004 - 2006"
+
+    [params.awards]
+        enable = false
+
+    [params.languages]
+        enable = false
+
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "DevOps Engineer"
+        dates = "November 2020 - Present"
+        company = "Vive (GH Bank)"
+        url = "https://www.vive.co.uk"
+        details = "Engineer specialising in cloud based technologies and automation, focused on developing a secure environment for a new digital bank, redesigning deployment systems to provide CI/CD"
+        [[params.experience.list.items]]
+        details = "Implementation of secure cloud native architecture"
+        [[params.experience.list.items]]
+        details = "Development of internal tooling"
+        [[params.experience.list.items]]
+        details = "Implementation of automated systems providing GitOps capabilities for Kubernetes and AWS"
+        [[params.experience.list.items]]
+        details = "Cost Optimisation"
+        [[params.experience.list.items]]
+        details = "Development of CI/CD platform for Spring based microservices"
+
+        [[params.experience.list]]
+        title = "Linux Engineer | DevOps Engineer (Rackspace contract)"
+        dates = "August 2020 - November 2020"
+        company = "Metro Bank"
+        url = "https://www.metrobankonline.co.uk/"
+        details = "I was assigned to the Metro Project to assist with general administration and automation as part of a company wide platform upgrade."
+        [[params.experience.list.items]]
+        details = "Cloud Architecture"
+        [[params.experience.list.items]]
+        details = "Automation to assist in the deployment of infrastructure"
+        [[params.experience.list.items]]
+        details = "Develop internal tooling to facilitate internal requirements"
+        [[params.experience.list.items]]
+        details = "Development of automated systems to reduce toil"
+
+
+
+        [[params.experience.list]]
+        title = "Linux Engineer | DevOps Engineer"
+        dates = "November 2011 - November 2020"
+        company = "Rackspace"
+        url = "https://www.rackspace.com"
+        details = "Provide support to internal and external customers, supporting a variety of solutions including but not limited to, LAMP, LNMP and Cloud Computing."
+        [[params.experience.list.items]]
+        details = "Cloud Architecture"
+        [[params.experience.list.items]]
+        details = "On-Premise Architecture"
+        [[params.experience.list.items]]
+        details = "Mentorship of junior engineers"
+        [[params.experience.list.items]]
+        details = "Develop automation for Rackers to use on customer servers"
+        [[params.experience.list.items]]
+        details = "Development of automated systems to reduce toil"
+
+    [params.projects]
+        enable = false
+
+    [params.information]
+        enable = false
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "https://github.com/dev-ace"
+        title = "dev-ace"
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "https://www.linkedin.com/in/adrianocelentano/"
+        title = "adrianocelentano"
+        [[params.social.list]]
+        icon = "fas fa-file-pdf"
+        url = "/resume.pdf"
+        title = "PDF Copy"
+
+    [params.footer]
+        copyright = ""
