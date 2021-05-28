@@ -1,6 +1,6 @@
 # Page settings
 
-baseURL = ""
+baseURL = "https://lazy-dev.github.io/adriano-cv/"
 languageCode = "en"
 title = "Resume"
 theme = "hugo-devresume-theme"
