@@ -31,8 +31,8 @@ googleAnalytics = "UA-39926379-1"
         text = "07716 532750"
         [[params.contact.list]]
         icon = "fas fa-envelope-square"
-        url = "mailto:adriano8899@gmail.com"
-        text = "adriano8899@gmail.com"
+        url = "mailto:ac@adriano.tech"
+        text = "ac@adriano.tech"
 
     [params.summary]
         enable = true
