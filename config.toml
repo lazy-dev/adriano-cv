@@ -116,8 +116,37 @@ googleAnalytics = "UA-39926379-1"
         enable = true
 
         [[params.experience.list]]
+        title = "Senior DevOps Engineer"
+        dates = "2022 - 2023"
+        company = "Medispend"
+        details = "Working with the business on a number of initiatives, such as"
+        [[params.experience.list.items]]
+        details = "Microsoft 365 Security"
+        [[params.experience.list.items]]
+        details = "Internal tool development"
+        [[params.experience.list.items]]
+        details = "Architecture migration"
+        [[params.experience.list.items]]
+        details = "Cost reduction"
+
+        [[params.experience.list]]
         title = "DevOps Engineer"
-        dates = "November 2020 - Present"
+        dates = "2021 - 2022"
+        company = "Realistic Games"
+        url = "https://www.realisticgames.co.uk/"
+        details = "Focused on the modernisation and support of their platform, implementing Kubernetes and multi-cloud capabilities"
+        [[params.experience.list.items]]
+        details = "Re-Architecture to Kubernetes"
+        [[params.experience.list.items]]
+        details = "Development of internal tooling"
+        [[params.experience.list.items]]
+        details = "Implementation of automated systems providing GitOps capabilities for Kubernetes (ArgoCD)"
+        [[params.experience.list.items]]
+        details = "Cost Optimisation"
+
+        [[params.experience.list]]
+        title = "DevOps Engineer"
+        dates = "November 2020 - July 2021"
         company = "Vive (GH Bank)"
         url = "https://www.vive.co.uk"
         details = "Engineer specialising in cloud based technologies and automation, focused on developing a secure environment for a new digital bank, redesigning deployment systems to provide CI/CD"
